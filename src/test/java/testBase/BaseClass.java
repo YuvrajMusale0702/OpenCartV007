@@ -57,6 +57,11 @@ public Properties p;
 			{
 				capabilities.setPlatform(Platform.MAC);
 			}
+			else if(os.equalsIgnoreCase("linux"))
+			{
+				capabilities.setPlatform(Platform.LINUX);
+			}
+			
 			else
 			{
 				System.out.println("No matching os");

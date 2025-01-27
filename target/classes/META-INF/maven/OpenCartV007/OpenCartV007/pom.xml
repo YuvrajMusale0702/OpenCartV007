@@ -23,7 +23,7 @@
              <suiteXmlFiles>
               <suiteXmlFile>Master.xml</suiteXmlFile>
              </suiteXmlFiles>
-	           </configuration>
+	      </configuration>
          </plugin>
        </plugins>
     </pluginManagement>

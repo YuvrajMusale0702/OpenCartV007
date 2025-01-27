@@ -5,7 +5,7 @@
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Master(failed)">
-    <parameter name="os" value="windows"/>
+    <parameter name="os" value="mac"/>
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testCases.TC001_AccountRegistrationTest">
